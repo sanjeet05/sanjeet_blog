@@ -290,7 +290,7 @@ $update_free_access = FALSE;
  *   $drupal_hash_salt = file_get_contents('/home/example/salt.txt');
  *
  */
-$drupal_hash_salt = '2S49chnbp6pLOHGsG4tMsn1lS_SHur5qGkTVDFaFSOE';
+$drupal_hash_salt = 'ax6d-rJQnbsUmzace6cqo-5c66DP2jTAgtH0CbP-8uQ';
 
 /**
  * Base URL (optional).
@@ -611,8 +611,7 @@ $conf['404_fast_html'] = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
  *
  * Remove the leading hash signs to disable.
  */
- # $conf['allow_authorize_operations'] = FALSE;
- $conf['allow_authorize_operations'] = TRUE;
+# $conf['allow_authorize_operations'] = FALSE;
 
 /**
  * Theme debugging:
